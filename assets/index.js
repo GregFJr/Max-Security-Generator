@@ -1,4 +1,3 @@
-// Assignment Code
 var generateBtn = document.querySelector("#generate");
 
 function generatePassword() {
@@ -58,14 +57,6 @@ function getRandomChar(characters) {
   const randomIndex = Math.floor(Math.random() * characters.length);
   return characters[randomIndex];
 }
-
-// Example usage:
-// document.getElementById('generateButton').addEventListener('click', function() {
-//   const password = generatePassword();
-//   console.log(password);
-// });
-
-
 
 // Write password to the #password input
 function writePassword() {
